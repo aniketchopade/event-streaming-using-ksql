@@ -1,0 +1,15 @@
+{
+  "namespace": "io.codebrews.accountTransactionrequest",
+  "type": "record",
+  "name": "AccountTransactionRecord",
+  "fields": [
+    {
+      "name": "_id",
+      "type": "string"
+    },
+    {
+      "name": "transaction_id",
+      "type": "string"
+    }   
+  ]
+}

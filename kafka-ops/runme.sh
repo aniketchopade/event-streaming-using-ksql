@@ -1,0 +1,1 @@
+python3 send_record.py --topic transactions --schema-file create-user-request.avsc --collection-name transactions
