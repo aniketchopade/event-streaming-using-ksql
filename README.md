@@ -10,7 +10,7 @@ This project runs Kafka with KSQL DB cluster. Use this project to demonstrate ho
    - Create account on atlas mongodb
    - Create a database cluster and obtain its connection string   
    - In your cluster database with name bank and collection name as transactions.
-   - set environment variable $CONNECTION_STRING. Example export CONNECTION_STRING=mongodb+srv://<id>:<pw>@<cluster-id>/<dbname>. 
+   - set environment variable `$CONNECTION_STRING`. Example export `CONNECTION_STRING=mongodb+srv://<id>:<pw>@<cluster-id>/<dbname>`. 
 
 ### Define Avro schema 
     - Sample records are in `kafka-ops\data\btrecs*.csv`
